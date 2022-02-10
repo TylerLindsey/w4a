@@ -1,0 +1,47 @@
+{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 251, 0);
+  border: solid;
+}
+
+div {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  border: solid;
+}
+
+.post {
+background-color: red;
+  width: 22%;
+  height: 105vh;
+  display: inline-block;
+  margin-left: 4.5vh;
+}
+
+.post2 {
+  background-color: green;
+  width: 22%;
+  height: 105vh;
+  display: inline-block;
+  margin-left: 4.5vh;
+  }
+
+.post3 {
+  background-color: blue;
+  width: 22%;
+  height: 105vh;
+  display: inline-block;
+  margin-left: 4.5vh;
+}
+
+.post4 {
+  background-color: purple;
+  width: 22%;
+  height: 105vh;
+  display: inline-block;
+  margin-left: 4.5vh;
+}
