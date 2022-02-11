@@ -1,0 +1,83 @@
+#main-grid{
+  display: grid;
+ /* grid-auto-flow: column; this changed the code to be from an on top of each other list to right beside each othr. With just display: grid it lists on top of each other*/
+ /* grid-template-columns: 200px 200px 200px;  when i added the 2 other 200s it put the elements into a 3x3+1 grid*/
+ /*grid-template-columns: 20vw 30vw 20vw 30vw; by using the vw I can make it so the page doesnt collapse when i have the f12 open*/
+
+ grid-template-columns: 1fr 2fr 1fr 2fr; /*fr is a fraction. It calculates the area of the grtid page, and subtracts all of the area needed for gaps that have been added if there are any, and divide the remaining by the number of columns */
+ column-gap: 10px;
+ justify-items: center;
+ align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+div {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background-color: bisque;
+}
+
+#one{
+  background-color: blue;/*
+  grid-column-start: 1;
+  grid-column-end: 0;
+  grid-column 0/3; mark couldnt get this to work*/
+}
+
+#two {
+  background-color: yellow;
+}
+
+#three{
+  background-color: blue;
+}
+
+#four {
+  background-color: yellow;
+}
+
+#five{
+  background-color: blue;
+  /*justify-self: start; i used this to pull a this box to the left, called justify*/
+}
+
+#six {
+  background-color: yellow;
+}
+#seven{
+  background-color: blue;
+}
+
+#eight {
+  background-color: yellow;
+}
+
+#nine{
+  background-color: blue;
+}
+
+#ten {
+  background-color: yellow;
+}
